@@ -19,7 +19,7 @@ const REG_ENTRY = /(__webpack_require__\(__webpack_require__.s=)(\d+)(?=\)})/;
 const needModuleId = 356
 const DATA = {appid:'50085',sceneid:'OY217hPageh5'};
 let smashUtils;
-const UA =  `jdpingou;iPhone;10.0.6;${Math.ceil(Math.random()*2+12)}.${Math.ceil(Math.random()*4)};${randomString(40)};`;
+const UA =  `jdapp;iPhone;10.0.6;15.0;dbab6f7f3ca4c625996ee1736deda95bd122f0ab;network/wifi;model/iPhone11,2;appBuild/167724;jdSupportDarkMode/0;addressid/3630014767;Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1`;
 class MovementFaker {
   constructor(cookie) {this.cookie = cookie;this.ua = UA;}
   async run() {if (!smashUtils) {await this.init();}
